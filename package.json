@@ -1,0 +1,24 @@
+{
+  "name": "atom-docker-linter",
+  "version": "0.1.0",
+  "description": "Helper module for docker-linter providers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtsmfm/atom-docker-linter.git"
+  },
+  "keywords": [
+    "docker",
+    "atom",
+    "linter"
+  ],
+  "author": "Fumiaki MATSUSHIMA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtsmfm/atom-docker-linter/issues"
+  },
+  "homepage": "https://github.com/mtsmfm/atom-docker-linter#readme"
+}

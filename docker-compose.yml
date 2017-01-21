@@ -1,0 +1,12 @@
+version: '2'
+services:
+  node:
+    image: node
+    user: node
+    command: 'sh -c "trap : TERM INT; sleep infinity & wait"'
+    working_dir: /app
+    volumes:
+      - .:/app
+      - home:/home/app
+volumes:
+  home:
