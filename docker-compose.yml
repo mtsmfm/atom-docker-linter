@@ -7,6 +7,7 @@ services:
     working_dir: /app
     volumes:
       - .:/app
-      - home:/home/app
+      - home:/home/node
+      - $HOME/.npmrc:/home/node/.npmrc:ro
 volumes:
   home:
